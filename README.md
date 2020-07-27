@@ -9,6 +9,9 @@ Imperial College OpenFOAM Research Software Community
 We started a weekly meeting where we discuss about OpenFOAM, numerical methods,
 modelling and good programming practice.
 
+Frequency: Weekly on Mondays, 4.30 pm - 5.30pm.
+Scope: (OpenFOAM / Physical Modelling / Implementation / Numerical Methods)
+
 The history of our reviews is public and all the minutes can be accessed
 through our [Google Drive Code Reviews Folder](https://drive.google.com/drive/folders/1jaWUxBVbzJ7u2zq4Rc8kH2H3anyJQv78?usp=sharing)
 
