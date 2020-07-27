@@ -1,0 +1,19 @@
+#PBS -lselect=1:ncpus=24:mem=16gb
+#PBS -lwalltime=01:50:00
+
+# Usage: qsub -V paraview.pbs
+
+# Efficient postprocessing on the cluster using cx-2
+# I have experienced a 10x increase in performance
+# compared with cx-1
+
+# The environmental variable SSH_CLIENT has to be imported
+# to the pbs script, which explains the -V flag on the usage
+
+## Local/Server paraview versions must be compatible
+## Ensure paraview/5.6.1 is installed in the local computer
+## and that the paraview client is configured following
+## Imperial College Paraview Remote Visualisation guidelines
+## Prefer precompiled binary
+module load paraview/5.6.1
+mpiexec pvserver --reverse-connection --client-host=${SSH_CLIENT%% *}
