@@ -1,10 +1,6 @@
 # code_reviews
-Code reviews, tips and tricks
 
-
-Insert
-
-Imperial College OpenFOAM Research Software Community 
+Imperial College OpenFOAM Research Software Community code reviews, tips and tricks
 
 We started a weekly meeting where we discuss about OpenFOAM, numerical methods,
 modelling and good programming practice.
